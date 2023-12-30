@@ -1,0 +1,6 @@
+2023-12-30 16:11:14,894 - ERROR - An error occurred: ('Connection aborted.', timeout('The write operation timed out'))
+2023-12-30 16:14:09,622 - INFO - File uploads/369249c3-388c-478c-9513-d6e9bf874559.csv uploaded to 369249c3-388c-478c-9513-d6e9bf874559.csv.
+2023-12-30 16:14:13,511 - INFO - File 369249c3-388c-478c-9513-d6e9bf874559.csv downloaded to uploads/369249c3-388c-478c-9513-d6e9bf874559.csv.
+2023-12-30 16:14:18,347 - INFO - File results/valid_369249c3-388c-478c-9513-d6e9bf874559.xlsx uploaded to valid_369249c3-388c-478c-9513-d6e9bf874559.xlsx.
+2023-12-30 16:14:22,247 - INFO - File results/invalid_369249c3-388c-478c-9513-d6e9bf874559.xlsx uploaded to invalid_369249c3-388c-478c-9513-d6e9bf874559.xlsx.
+2023-12-30 16:14:25,111 - INFO - Notification sent: {"sent":true,"message":{"id":"yqLyjpgr.Oc-wFcR8fLhYQ","from_me":true,"type":"text","chat_id":"77073670497@s.whatsapp.net","timestamp":1703931265,"source":"api","device_id":1,"status":"pending","text":{"body":"Processed files are available: Valid Numbers - https://storage.googleapis.com/whatsapp-ix/valid_369249c3-388c-478c-9513-d6e9bf874559.xlsx, Invalid Numbers - https://storage.googleapis.com/whatsapp-ix/invalid_369249c3-388c-478c-9513-d6e9bf874559.xlsx"}}}

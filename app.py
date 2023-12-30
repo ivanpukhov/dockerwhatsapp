@@ -1,14 +1,13 @@
-import gc  # Для управления сборщиком мусора
-import logging
 import os
 import uuid
-from threading import Thread
-
 import pandas as pd
 import requests
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from google.cloud import storage
+from threading import Thread
+import gc  # Для управления сборщиком мусора
+import logging
 
 app = Flask(__name__)
 CORS(app)
@@ -25,7 +24,8 @@ if not os.path.exists(result_folder):
 if not os.path.exists(log_folder):
     os.makedirs(log_folder)
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=os.path.join(log_folder, "server.log"), level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 validation_url = "https://gate.whapi.cloud/contacts"
 whatsapp_notification_url = "https://gate.whapi.cloud/messages/text"
@@ -71,7 +71,7 @@ def process_file_async(file_name):
     download_from_gcs(file_name, temp_csv_path)
 
     data = pd.read_csv(temp_csv_path, encoding='utf-8')
-    phone_numbers = data.iloc[:, 3].dropna().astype(str).str.replace(r'\.0', '', regex=True).tolist()
+    phone_numbers = data.iloc[:, 3].dropna().astype(str).str.replace('\.0', '', regex=True).tolist()
 
     # Валидация номеров телефонов
     headers = {
@@ -87,8 +87,7 @@ def process_file_async(file_name):
             "force_check": False,
             "contacts": batch
         }
-        response = requests.post(validation_url, json=payload, headers=headers, timeout=3600)
-
+        response = requests.post(validation_url, json=payload, headers=headers)
         batch_results = response.json()['contacts']
         validation_results.extend(batch_results)
 

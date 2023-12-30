@@ -1,14 +1,17 @@
+# Используйте официальный образ Python как родительский образ
 FROM python:3.8-slim
 
-# Установка компилятора C и других зависимостей
-RUN apt-get update && apt-get install -y build-essential
-
+# Установите рабочий каталог в контейнере
 WORKDIR /app
 
-# Установка зависимостей Python
-COPY requirements.txt requirements.txt
+# Скопируйте файлы проекта в контейнер
+COPY . /app
+
+# Установите зависимости
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+# Сделайте порт 5000 доступным для мира за пределами этого контейнера
+EXPOSE 5000
 
+# Запустите приложение при запуске контейнера
 CMD ["python", "app.py"]
