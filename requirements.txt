@@ -17,7 +17,7 @@ cors
 cryptography
 et-xmlfile
 filelock
-Flask
+Flask~=3.0.0
 Flask-Cors
 Flask-Login
 Flask-SQLAlchemy
@@ -42,7 +42,7 @@ MarkupSafe
 numpy
 openpyxl
 packaging
-pandas
+pandas~=2.1.4
 paramiko
 prompt-toolkit
 protobuf
@@ -54,7 +54,7 @@ PySocks
 python-dateutil
 pytz
 redis
-requests
+requests~=2.31.0
 requests-file
 rq
 rsa
@@ -71,3 +71,5 @@ Werkzeug
 WTForms
 XlsxWriter
 zipp
+
+aiohttp~=3.9.1
