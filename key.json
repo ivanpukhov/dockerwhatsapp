@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ultra-concord-376907",
+  "private_key_id": "a99e3c965b7af1350b8203b64164f6963189e091",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/xXlkR3IgQUS5\nQoOucAeWALddF6r5lCUNWE9E6DPAlcJxjF8sZpOucENV++32Ld3P3Ua4ZUxV7HX9\nzs6xlDNzebCvxTxw6us3J1KHCerhHNPp6OhPyrJ46yXmLNf4nYcxdS6e7NyG2ydE\nSHay+RjXh3Dy1sQ37173BE/fwSjE85uMiXyF16jkXJ3FQQMmeMz5BuWuYTXQ4OSB\nT5GXVh+b+7HykHM38zaW2YR6eHNubQu9zkuaQbpss7CIvYnhW1EYpVR0uvx6t+u1\nNHSVt+L4UqhUvrIh/jDB4VWfDQaVDJ+ZfSE7lr7kOU+DkeUtlXdJyedxStxK6zjh\niXZ6siStAgMBAAECggEADsKgCooePGHRrJG0SXWZe9/vvRRQhley92E77rGRpCnS\ntsMnYyc9CDDfWeujX+6dUz20jwZK9xUVatTjX1MpF6L+6LR9Z7KJKqxV44ttnuiF\nXgxdbyDKlliBCQOcFuhnCrU6gqR3/9A36D9MlY9rLFGiLaq+nRCJRml4TWBUZz43\njtoxNCk4sQEAr4f7nKPjxNEXWZ+6P2A1GBi3AXuOXcbpVU8hTTdtX7J9lJLa0337\npu1UKZCyoJOt06+9/PSGeQJYBU2+kbYtq9LU7NwGKEfwMafXIEdwL+8IFxVggyCP\nIuCtMYEoX8t4xTbbd8Q6i22qdakLgbJfotq/DgtU+QKBgQD0FyRHoujMc7zdSdir\nUvtgE76ny4XNqVOgggGe3y8p7ET1s1ZZPql7F5WpWPnezRUj7SFDWTmHjrY5KBPx\nIKxjffxESOmsWW39VU5O4/6CQFlrK+KivjfkoyR6hRecFN0fVcw+RIV1DKHyldIf\nUXpexUZ5+NGemv0tRKSqXvee2QKBgQDJINTrR6BlI3xOM70j9xdyNshQ1KfTO8p/\nf/rz3Si7INyGxQ8PIjG8QIf8035h9poQjBmLtEGZ0GLSFsDH7aKcrh62/pKNp61b\np15mxcK3EYTEV6mwM1EkBUzpNEzN26XM88FThXTkpblC4lLdcKGE3NwlUwtrmr9Z\nsbUiWDq39QKBgQDnFaWeQGf/b68lHQ2InSYo/mhoePDzFNR8R7h7DTacjPd4WVFt\najqPs3NYAUmGGkhiW9Q665Tgdkaj9AJ1LQanppWWnCTFq2DLDuD1JTpFW+CL6t9E\nTauixKT7bVc9yC7TxKl5ZeunNc94V0i3p66fXErtnJfvfTIlkjAGr6PkeQKBgQC2\ndPdS/aZvOdLhqqQSBW0aqsHsOg6JXPtl0Pca1W3G3JfSFuCDbRTLX4s9+6ryOeEn\n08C08PB2Fgof5o46kMRs+LRac/UFVrC4rcvA1fS/WMAl0hTZCKS6VaihAlYOhg0S\nMasXFsGlTwYSu/hKdIvCWQ3JOl3o3vhp6QGWR431JQKBgH5AXhHRqH1lmaPk6rkY\nx6JnTTjylUWRxGvtbxAi4ISz02wFrjYaRybtexuDnvY2QBYwsqaB98mvDSB9D7rg\nyUuGezpPaDDZ6YZSnpaERWapVjKrYXdJJIxypcR2hayBswsxdCg1nRkLCJRgcukQ\ngesNEA39J3MeKqS8NL3FRmwv\n-----END PRIVATE KEY-----\n",
+  "client_email": "app-team-service-account-357@ultra-concord-376907.iam.gserviceaccount.com",
+  "client_id": "105910833075035585957",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/app-team-service-account-357%40ultra-concord-376907.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
